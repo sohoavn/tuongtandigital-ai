@@ -78,8 +78,8 @@ const DEFAULT_TTS_VOICE = 'Aoede';
 /** Default flashcard count */
 const DEFAULT_FLASHCARD_COUNT = 10;
 
-/** Google Apps Script License Validation endpoint — Replace with your deployed URL */
-const LICENSE_API_URL = 'YOUR_APPS_SCRIPT_WEB_APP_URL';
+/** Google Apps Script License Validation endpoint — Replace with your deployed URL YOUR_APPS_SCRIPT_WEB_APP_URL*/
+const LICENSE_API_URL = 'https://script.google.com/macros/s/AKfycby8gzoAzHHNlrqZDM_ym_xSruooZp19sDMiGncZv6n4DoaSyW_bsjRbtCUz08vio8pY/exec';
 
 /** Themes */
 const THEMES = ['light','dark','blue','purple'];
@@ -6487,4 +6487,5 @@ if (document.readyState === 'loading') {
 // Core: State, Config, IDB, Auth, License, API, Notebook,
 //       Chat, TTS, STT, Flashcard, Quiz, Podcast, MindMap,
 //       Glossary, Sentiment, Comparison, PWA, Events, Init
+
 // ===================================================================
