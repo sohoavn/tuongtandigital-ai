@@ -15,9 +15,9 @@
 const APP_VERSION = '3.0.0';
 const APP_NAME    = 'TuongTanDigital-AI';
 
-/** Google OAuth 2.0 — Replace with your real Client ID */
+/** Google OAuth 2.0 — Replace with your real Client ID YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com*/
 const GOOGLE_CONFIG = {
-  CLIENT_ID   : 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com',
+  CLIENT_ID   : '59412171597-dp8srl0uktif7vh5pbi8412u8ep1b2m2.apps.googleusercontent.com',
   REDIRECT_URI: window.location.origin,
   SCOPES      : 'openid email profile'
 };
@@ -6487,4 +6487,5 @@ if (document.readyState === 'loading') {
 // Core: State, Config, IDB, Auth, License, API, Notebook,
 //       Chat, TTS, STT, Flashcard, Quiz, Podcast, MindMap,
 //       Glossary, Sentiment, Comparison, PWA, Events, Init
+
 // ===================================================================
