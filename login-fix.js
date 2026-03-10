@@ -256,9 +256,7 @@
           splash.classList.add('visible');
         }
         if (appWrapper) appWrapper.style.display = 'none';
-
-        // Khởi tạo Google Auth
-        safeInitGoogleAuth(0);
+        
       } else {
         // Đã có session: ẩn splash, hiện app
         if (splash) {
@@ -287,5 +285,6 @@
   };
 
   console.log('[login-fix] Login fix patch loaded successfully.');
+
 
 })();
